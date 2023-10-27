@@ -3,7 +3,253 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Resume</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="row g-0">
+        <a class="col-md-4 logo" href="index.html"></a>
+        <div class="col-md-8">
+          <div class="row g-0 bg-color-name-title">
+            <div class="col heading">
+              <h1 class="name">Rafael Mendes</h1>
+              <h2 class="title">Full Stack Developer</h2>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col">
+              <ul id="nav" class="list-inline menucontainer">
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem"
+                >
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-home" aria-hidden="true"></i
+                    ><span>Home</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem"
+                >
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-graduation-cap" aria-hidden="true"></i
+                    ><span>Resume</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem"
+                >
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-comment-o" aria-hidden="true"></i
+                    ><span>Contact</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem"
+                >
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-download" aria-hidden="true"></i
+                    ><span>Download</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 bg-color-work-history section-column">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="history-heading uppercase">Work History</h3>
+            </div>
+            <div class="history-items">
+              <div class="timeline-item" data-dates="02/2012 - 03/2016">
+                <h4>Emprego 1</h4>
+                <p>Cargo 1</p>
+              </div>
+              <div class="timeline-item" data-dates="05/2016 - current">
+                <h4>Emprego 2</h4>
+                <p>Cargo 2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 bg-color-three-reasons section-column">
+          <div class="row">
+            <div class="col">
+              <h3 class="section-heading uppercase">My Skills</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+              <div class="row">
+                <div class="col-2">
+                  <i class="three-reasons-icon fa fa-tv" aria-hidden="true"></i>
+                </div>
+                <div class="col-10">
+                  <h4 class="three-reasons-heading uppercase">Front End</h4>
+                  <p>
+                    Demonstrating excellent competence in front-end skills, I
+                    have a deep understanding of HTML, CSS, JavaScript, and
+                    modern web development frameworks, enabling me to create
+                    engaging, responsive, and visually appealing user interfaces
+                    that enhance the overall user experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+              <div class="row">
+                <div class="col-2">
+                  <i
+                    class="three-reasons-icon fa fa-gears"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <div class="col-10">
+                  <h4 class="three-reasons-heading uppercase">Back End</h4>
+                  <p>
+                    With strong competence in backend skills, I possess a robust
+                    command of server-side programming languages and database
+                    management, allowing me to build efficient, secure, and
+                    scalable systems that handle complex data processing and
+                    business logic with precision. My expertise in backend
+                    development ensures the seamless functionality and
+                    reliability of your web applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row progress-section">
+            <div class="col">
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 90%"
+                >
+                  <span class="sr-only">90% complete</span>
+                </div>
+                <span class="progress-type">HTML / HTML5</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%"
+                >
+                  <span class="sr-only">80% complete</span>
+                </div>
+                <span class="progress-type">CSS / CSS3</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 70%"
+                >
+                  <span class="sr-only">70% complete</span>
+                </div>
+                <span class="progress-type">JavaScript / jQuery</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%"
+                >
+                  <span class="sr-only">80% complete</span>
+                </div>
+                <span class="progress-type">Django / Python</span>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%"
+                >
+                  <span class="sr-only">80% complete</span>
+                </div>
+                <span class="progress-type">SQL / NoSQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid">
+      <div id="footer-details" class="row">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">About</h5>
+          <p class="inline-block">
+            Experienced Full Stack Developer proficient in web application
+            development, bridging front-end and back-end elements using a range
+            of languages and tools.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Download</h5>
+          <p class="inline-block">
+            Download a printable version of this CV.
+            <a href="#" target="_blank" class="cv-pdf">
+              <i class="fa fa-download" aria-hidden="true"></i>
+              <span class="sr-only">Download link.</span>
+            </a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Social</h5>
+          <ul class="list-inline social-links">
+            <li class="list-inline inline-block">
+              <a target="_black" href="#">
+                <i class="fa fa-facebook"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline inline-block">
+              <a target="_black" href="#">
+                <i class="fa fa-linkedin"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
